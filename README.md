@@ -13,8 +13,8 @@ npm install fis-parser-node-sass-vendor -g
 开启插件
 
 ```javascript
-fis.config.set('modules.parser.sass', 'node-sass');
-fis.config.set('modules.parser.scss', 'node-sass');
+fis.config.set('modules.parser.sass', 'node-sass-vendor');
+fis.config.set('modules.parser.scss', 'node-sass-vendor');
 
 fis.config.set('roadmap.ext.sass', 'css');
 fis.config.set('roadmap.ext.scss', 'css');
@@ -23,7 +23,7 @@ fis.config.set('roadmap.ext.scss', 'css');
 插件配置
 
 ```javascript
-fis.config.set('settings.parser.node-sass', {
+fis.config.set('settings.parser.node-sass-vendor', {
     // 加入文件查找目录
     include_paths: []
 });
@@ -34,7 +34,7 @@ fis.config.set('settings.parser.node-sass', {
 ```js
 fis.match('*.scss', {
   rExt: '.css',
-  parser: fis.plugin('node-sass', {
+  parser: fis.plugin('node-sass-vendor', {
     // options...
   })
 })
