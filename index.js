@@ -7,7 +7,7 @@
 
 
 var path = require('path');
-var sass = require('node-sass');
+var sass = require('node-sass-vendor');
 var util = require('util');
 var root;
 
