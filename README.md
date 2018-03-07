@@ -1,4 +1,4 @@
-fis-parser-node-sass
+fis-parser-node-sass-vendor
 ============================
 
 ## 安装与使用 
@@ -6,7 +6,7 @@ fis-parser-node-sass
 全局安装
 
 ```bash
-npm install fis-parser-node-sass -g
+npm install fis-parser-node-sass-vendor -g
 ```
 
 ## FIS2
